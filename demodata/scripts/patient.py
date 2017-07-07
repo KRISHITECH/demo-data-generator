@@ -30,7 +30,7 @@ def generate_patients(count=1):
             'postal_code': postal_code,
             'city': city,
             'state': state,
-            'country_code': 'US',
+            'country_code': 'IN',
             'drivers_license': random_drivers_license(lname[0], int(dob.strftime("%y"))),
             'ss': random.randint(100000000, 999999999),
             'occupation': barnum.create_job_title(),
